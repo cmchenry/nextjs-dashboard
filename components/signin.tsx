@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { JSX, SVGProps } from "react"
 
 export function Signin() {
   return (
@@ -51,7 +52,7 @@ export function Signin() {
 }
 
 
-function LockIcon(props) {
+function LockIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -72,7 +73,7 @@ function LockIcon(props) {
 }
 
 
-function ChromeIcon(props) {
+function ChromeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -96,7 +97,7 @@ function ChromeIcon(props) {
 }
 
 
-function ComputerIcon(props) {
+function ComputerIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
